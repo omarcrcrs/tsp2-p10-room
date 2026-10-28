@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Velocímetro/odómetro dibujado a mano, a colores para combinar con los íconos del Ejercicio 2 -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <!-- Carátula del tablero -->
+    <path
+        android:fillColor="#FF37474F"
+        android:pathData="M4,31A20,20 0,0 1,44 31L44,33Q44,37 40,37L8,37Q4,37 4,33Z" />
+    <!-- Escala: verde, ámbar y rojo -->
+    <path
+        android:pathData="M9,31A15,15 0,0 1,16.5 18.01"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FF66BB6A" />
+    <path
+        android:pathData="M16.5,18.01A15,15 0,0 1,31.5 18.01"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFCA28" />
+    <path
+        android:pathData="M31.5,18.01A15,15 0,0 1,39 31"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFEF5350" />
+    <!-- Aguja -->
+    <path
+        android:fillColor="#FFEF5350"
+        android:pathData="M25.15,31.96L22.85,30.04L31.71,21.81Z" />
+    <!-- Centro de la aguja -->
+    <path
+        android:fillColor="#FFECEFF1"
+        android:pathData="M21.4,31A2.6,2.6 0,1 0,26.6 31A2.6,2.6 0,1 0,21.4 31Z" />
+</vector>

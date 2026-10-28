@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Bitácora Gas</string>
+
+    <!-- Títulos de las pantallas -->
+    <string name="titulo_historial">Historial de cargas</string>
+    <string name="titulo_nueva_carga">Nueva carga</string>
+    <string name="titulo_editar_carga">Editar carga</string>
+    <string name="titulo_eliminar_carga">Eliminar carga</string>
+    <string name="regresar">Regresar</string>
+
+    <!-- Historial (mostrar registros) -->
+    <string name="agregar_carga">Agregar carga</string>
+    <string name="sin_cargas">Aún no hay cargas registradas</string>
+    <string name="sin_cargas_detalle">Toca «Agregar carga» para guardar la primera en la base de datos.</string>
+    <string name="resumen_cargas">cargas</string>
+    <string name="resumen_litros">litros</string>
+    <string name="resumen_gasto">gastado</string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+
+    <!-- Formulario (agregar / modificar) -->
+    <string name="tipo_combustible">Tipo de combustible</string>
+    <string name="precio_litro">Precio por litro</string>
+    <string name="litros">Litros</string>
+    <string name="propina">Propina</string>
+    <string name="kilometraje">Kilometraje del odómetro (km)</string>
+    <string name="pregunta_propina">¿Deseas agregar la propina?</string>
+    <string name="pregunta_kilometraje">¿Deseas guardar el kilometraje?</string>
+    <string name="monto_total">Monto total</string>
+    <string name="guardar_carga">Guardar carga</string>
+    <string name="guardar_cambios">Guardar cambios</string>
+    <string name="formulario_incompleto">Ingresa el precio por litro y los litros para poder guardar.</string>
+
+    <!-- Eliminar -->
+    <string name="confirmar_eliminacion">¿Seguro que deseas eliminar esta carga?</string>
+    <string name="aviso_eliminacion">El registro se borrará de la base de datos y no se puede deshacer.</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="registro_no_encontrado">El registro no existe o ya fue eliminado.</string>
+
+    <!-- Mensajes (Snackbar) -->
+    <string name="mensaje_guardado">✓ Carga guardada en la base de datos</string>
+    <string name="mensaje_actualizado">✓ Carga actualizada</string>
+    <string name="mensaje_eliminado">✓ Carga eliminada</string>
+
+    <!-- Detalle de una carga -->
+    <string name="etiqueta_combustible">Combustible</string>
+    <string name="etiqueta_registro">Registro</string>
+    <string name="etiqueta_fecha">Fecha</string>
+    <string name="etiqueta_kilometraje">Kilometraje</string>
+    <string name="sin_propina">Sin propina</string>
+    <string name="no_registrado">No registrado</string>
+
+    <!-- Formatos (%1$s = texto, %1$d = entero) -->
+    <string name="formato_id">#%1$d</string>
+    <string name="formato_id_fecha">Registro #%1$d · %2$s</string>
+    <string name="formato_precio_litro">%1$s / L</string>
+    <string name="formato_litros">%1$s L</string>
+    <string name="formato_propina">Propina: %1$s</string>
+    <string name="formato_odometro">Odómetro: %1$s km</string>
+    <string name="formato_km">%1$s km</string>
+</resources>
